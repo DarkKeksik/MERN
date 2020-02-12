@@ -1,0 +1,34 @@
+{
+    "name": "mern-course",
+    "version": "1.0.0",
+    "description": "MEAR stack",
+    "main": "app.js",
+    "private": true,
+    "scripts": {
+        "start": "node app.js",
+        "server": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DarkKeksik/MERN.git"
+    },
+    "keywords": [
+        "mern",
+        "react"
+    ],
+    "author": "DarkKeksik",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DarkKeksik/MERN/issues"
+    },
+    "homepage": "https://github.com/DarkKeksik/MERN#readme",
+    "dependencies": {
+        "config": "^3.2.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.8.11"
+    },
+    "devDependencies": {
+        "concurrently": "^5.1.0",
+        "nodemon": "^2.0.2"
+    }
+}

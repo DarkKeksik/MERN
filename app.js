@@ -1,6 +1,6 @@
 const express = require("express"),
       config = require("config"),
-      mongoose = require("mongoose")
+      mongoose = require("mongoose");
 
 const app = express();
 
